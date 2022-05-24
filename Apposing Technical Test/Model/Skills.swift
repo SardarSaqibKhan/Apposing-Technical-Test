@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Skills:Codable {
+    
+    
+    var id:Int
+    var name:String
+    var isSelected: Bool? = false
+}

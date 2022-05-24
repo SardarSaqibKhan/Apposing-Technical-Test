@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+enum URLs:String{
+    
+    
+    case retrieveSkills = "https://storage.googleapis.com/apposing-interviews/suggested-skills.json"
+    case addSkills = "https://storage.googleapis.com/apposing-interviews/skills.json"
+
+
+}

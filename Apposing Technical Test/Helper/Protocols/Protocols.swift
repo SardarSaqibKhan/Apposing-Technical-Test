@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+protocol AddSkillsVCDelegate: class {
+    func didReceiveSelectedSkills(skills: [Skills])
+}
